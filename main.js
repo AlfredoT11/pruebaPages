@@ -29,6 +29,7 @@ const postUser = async (e) => {
         headers: {
             "Content-Type": "application/json; charset=utf-8",
         },
+        mode: 'no-cors',
         method: "POST",
         body: JSON.stringify({
             username: username,
